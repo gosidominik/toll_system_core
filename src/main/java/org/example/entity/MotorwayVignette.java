@@ -9,6 +9,15 @@ private int price;
 private Date validFrom;
 private Date validTo;
 private Date dateOfPurchase;
+private String vehicleRegNumber;
+
+    public String getVehicleRegNumber() {
+        return vehicleRegNumber;
+    }
+
+    public void setVehicleRegNumber(String vehicleRegNumber) {
+        this.vehicleRegNumber = vehicleRegNumber;
+    }
 
     public String getVehicleCategory() {
         return vehicleCategory;
